@@ -1,0 +1,291 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+  
+  font-family: 'Geologica', sans-serif;
+  width: auto;
+  
+}
+
+body{
+    background: #6BC4C2;
+    background-image: url(../img/ondas.svg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.inicio {
+   /* background: #6BC4C2;*/
+    display: flex;
+    font-weight: 900;
+    font-size: 39px;
+    width: 60%;
+    margin-inline: 21%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 42px;
+    margin-top: 30px;
+}
+
+.LogoBV {
+    display: flex;
+    justify-content: center;
+    width: 37%;
+    height: auto;
+    display: block;
+    padding: 0px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 524px) {
+    .LogoBV{
+    width: 90%;
+    padding: 6px;
+}     
+}
+     
+.categorias {
+    /*background: #6BC4C2;*/
+    display: flex;
+    align-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-inline: 21%;
+    justify-content: center;
+}
+
+@media (max-width: 524px) {
+    .categorias{
+    width: 95%;
+    margin-inline: 3%;
+}     
+}
+
+/*.menu_gale {
+    background: #6BC4C2;
+}*/
+
+.hoja_menu_esp {
+    display: none;
+}
+
+.hoja_menu_trad {
+    display: none;
+}
+
+.hoja_menu_fres {
+    display: none;
+}
+
+.hoja_menu_past {
+    display: none;
+}
+
+.hoja_menu_burr {
+    display: none;
+}
+
+.hoja_menu_bota {
+    display: none;
+}
+
+.hoja_menu_bebid {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtitulo {
+    display: flex;
+    font-weight: 600;
+    font-size: 30px;
+    color: #437674;
+    text-align: center;
+    flex-direction: column;
+    margin: 21px;
+    transition: 500ms;
+    align-items: center;
+}
+
+.subtitulo:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.ico_menu {
+    align-items: center;
+    width: 60px;
+    height: auto;
+}
+
+.tit_ico {
+    font-weight: 300;
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.colum_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 42px;
+    margin-inline: 3%;
+    width: 90%;
+    height: auto;
+}
+
+.sect_menu {
+        font-weight: 600;
+        font-size: 21px;
+        color: #ffffff;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 36px;
+}
+
+.menu_gale {
+    display: grid;
+    place-items: center;
+    margin-inline: 20%;
+}
+
+@media (max-width: 524px) {
+    .menu_gale {
+      margin-inline: 0;
+    }
+}
+
+.contenedor_menu {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-inline: 9px;
+}
+
+.foto_menu {
+    width: 130px;
+    flex-shrink: 0;
+    margin: 3px;
+    border-radius: 50%;
+    box-shadow: #000 2px 2px 4px;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.platio {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #47645d;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 6px;
+    gap: 9px;
+}
+
+.desc_platio {
+    font-weight: 200;
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.precio {
+    color: #2C807B;
+    padding-right: 18px;
+}
+
+
+@media (max-width: 524px) {
+    .subtitulo {
+      font-size: 24px;
+    }
+    .platio {
+      font-size: 19px;
+      gap: 2px;
+
+    }
+    .desc_platio {
+        font-size: 14px;
+    }
+  }
+
+  .Logo_pie {
+    width: 72px;
+    height: 72px;
+  }
+
+  .ico_gv {
+    display: grid;
+    place-items: center;
+    margin-top: 12px;
+    margin-bottom: 30px;
+  }
+
+  .rayita {
+    display: grid;
+    place-items: center;
+    margin-bottom: 12px;
+    text-align: center;
+    height: 3px;
+    color: #20605b;
+    border-radius: 42%;
+    box-shadow: 0 6px 10px 2px black;
+  }
+
+  .contac {
+    font-weight: 600;
+    font-size: 21px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-bottom: 21px;
+    margin-top: 9px;
+  }
+
+.redeees {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cont_redes {
+    display: flex;
+ }
+
+.redes {
+    width: 69px;
+    height: auto;
+ }
+
+ .tex_redes {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 100;
+    display: grid;
+    place-items: center;
+ }
+
+ .cont_redes:hover {
+    cursor: pointer;
+ }
